@@ -85,6 +85,9 @@ body{
     color: #9f9f9f;
     padding: 10px 0;
 }
+.footer .group{
+    margin-bottom: 20px;
+}
 .card-columns.result{
      -webkit-column-count: 4;
     -moz-column-count: 4;

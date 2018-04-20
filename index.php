@@ -16,6 +16,9 @@
                 </div>
             </div> 
             <footer class="footer">
+                <div class="group">
+                    <img src="assets/img/img_group.png" alt="inmagine group" />
+                </div>
                 copyright &copy; heyou 2018
             </footer>
         </section>
