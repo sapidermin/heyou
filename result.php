@@ -17,164 +17,73 @@
 </head>
 
 <body>
+    <!-- Modal -->
+    <div class="modal fade" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="" id="detail_img" width="100%" />
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Go to website</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="container">
         <div class="search-bar head">
-                <img src="./assets/img/logo.png" alt="img" />
-                <div class="label-search">
-                    <input type="text" placeholder="Search" />
-                    <button><i class="fa fa-search"></i></button>
+            <img src="./assets/img/logo.png" alt="img" />
+            <div class="label-search">
+                <input type="text" placeholder="Search" />
+                <button><i class="fa fa-search"></i></button>
+            </div>
+            <select>
+                <option>All Format</option>
+                <option>PSD</option>
+                <option>AI</option>
+                <option>JPEG</option>
+            </select>
+        </div>
+        <section class="filter clearfix">
+            <span class="products">
+                <input type="checkbox" id="123rf" checked /><label for="123rf">123RF</label>
+            </span>
+            <span class="products">
+                <input type="checkbox" id="thj" checked /><label for="thj">The Hungry JPEG</label>
+            </span>
+            <span class="products">
+                <input type="checkbox" id="sui" checked /><label for="sui">Stock Unlimited</label>
+            </span>
+            <span class="products">
+                <input type="checkbox" id="cb" checked /><label for="cb">Craft Bundles</label>
+            </span>
+            <div class="result">1202 Results</div>
+        </section>
+        <div class="card-columns result">
+            <div class="card item">
+                <figure class="img-wrap">
+                    <img class="card-img-top" data-toggle="modal" data-target="#detailModal" src="https://source.unsplash.com/daily" alt="Card image top" />
+                </figure>
+                <div class="card-body">
+                    <span class="label">123RF</span>
+                    <h4 class="card-subtitle">Light streak in sky over city at night</h4>
                 </div>
             </div>
-        <div class="card-columns">
-           
-                <div class="card">
-                    <div class="card-header">
-                        Card Header
-                    </div>
-                    <img class="card-img-top" src="https://source.unsplash.com/daily" alt="Card image top">
-                    <div class="card-body">
-                        <h3 class="card-title">Each Card body can have a title</h3>
-                        <h4 class="card-subtitle">And a subtitle</h4>
-                        <p class="card-text">This is a card body 1</p>
-                    </div>
-
-
-                    <div class="card-body">
-                        <h3 class="card-title">Card body 2 title</h3>
-                        <h4 class="card-subtitle">And subtitle</h4>
-                        <p class="card-text">You can also add a second body or even more</p>
-                    </div>
-                    <img class="card-img-bottom" src="https://source.unsplash.com/daily" alt="Card image bottom">
-                    <div class="card-footer">
-                        Card Footer
-                    </div>
-                </div>
-          
-          
-                <div class="card">
-
-                    <img class="card-img-top" src="https://source.unsplash.com/daily?nature" alt="Card image top">
-                    <div class="card-img-overlay">
-                        <h3 class="card-title">Card title</h3>
-                        <h4 class="card-subtitle">Card subtitle</h4>
-                        <p class="card-text">You can use the cap image as an overlay for the body</p>
-                    </div>
-                </div>
-
-                <div class="card">
-
-                    <img class="card-img-top" src="https://source.unsplash.com/daily?rock" alt="Card image top">
-                    <div class="card-img-overlay white">
-                        <h3 class="card-title">Card title</h3>
-                        <h4 class="card-subtitle">Card subtitle</h4>
-                        <p class="card-text">You can add links to card body</p>
-                        <a href="#" class="card-link">Link 1</a>
-                        <a href="#" class="card-link">Link 2</a>
-                    </div>
-                </div>
-    
-                <div class="card  card-primary p-3 text-center">
-                    <ul class="list-group">
-                        <li class="list-group-item">Item 1</li>
-                        <li class="list-group-item">Item 2</li>
-                        <li class="list-group-item">Item 3</li>
-                    </ul>
-
-                </div>
-
-                <div class="card text-white border-danger bg-danger p-1 text-center">
-
-                    <div class="card-body">
-                        <h2 class="card-title"> My Card</h2>
-                        <p class="card-text"> This is a simple centered text </p>
-                    </div>
-
-                </div>
- 
-                <div class="card text-primary border-primary">
-
-                    <div class="card-body">
-                        <h2 class="card-title"> My List</h2>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Item 1</li>
-                            <li class="list-group-item">Item 2</li>
-                            <li class="list-group-item">Item 3</li>
-                        </ul>
-                    </div>
-
-                </div>
-
-                <div class="card border-danger text-primary">
-                    <img class="card-img-top" src="https://source.unsplash.com/daily?rock" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Card text</p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Item 1</li>
-                        <li class="list-group-item">Item 2</li>
-                        <li class="list-group-item">Item 3</li>
-                    </ul>
-                    <div class="card-body">
-                        <a href="#" class="card-link">Link 1</a>
-                        <a href="#" class="card-link">Link 2</a>
-                    </div>
-                </div>
             
-                <div class="card">
-                    <div class="card-header">
-                        <ul class="nav nav-tabs card-header-tabs">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">Tab 1</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Tab 2</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Tab 3</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <img class="card-img-top" src="https://source.unsplash.com/daily?rock" alt="Card image top">
-                    <div class="card-body">
-                        <h3 class="card-title">Card title</h3>
-                        <h4 class="card-subtitle">Card subtitle</h4>
-                        <p class="card-text">You can add navigation (navigation and pills) to card header</p>
-                    </div>
+            <div class="card ads text-white border-danger bg-danger p-1 text-center">
+                <div class="card-body">
+                    <h2 class="card-label"> 123RF</h2>
+                    <p class="card-text"> Designers, here’s something for you. </p>
                 </div>
-
-                <div class="card">
-                    <div class="card-header">
-                        <ul class="nav  nav-pills card-header-pill">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">Pill 1</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Pill 2</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Pill 3</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <img class="card-img-top" src="https://source.unsplash.com/daily?wood" alt="Card image top">
-                    <div class="card-body">
-                        <h3 class="card-title">Card title</h3>
-                        <h4 class="card-subtitle">Card subtitle</h4>
-                        <p class="card-text">You can add navigation (navigation and pills) to card header</p>
-                    </div>
-                </div>
-
-                <div class="card text-white bg-dark mt-5">
-                    <div class="card-header">This is a Header</div>
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a text </p>
-                    </div>
-                </div>
-            
+            </div>  
         </div>
-
     </div>
 
     <!-- Optional JavaScript -->
@@ -185,6 +94,15 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).on("click", ".card.item", function () {
+             var imgSrc = $(this).find('.card-img-top').attr('src');
+             $(".modal-body #detail_img").attr('src', imgSrc );
+             // As pointed out in comments, 
+             // it is superfluous to have to manually call the modal.
+             // $('#addBookDialog').modal('show');
+        });
+    </script>
 </body>
 
 </html>
