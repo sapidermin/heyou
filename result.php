@@ -75,14 +75,113 @@
                     <span class="label">123RF</span>
                     <h4 class="card-subtitle">Light streak in sky over city at night</h4>
                 </div>
+            </div>            
+            
+            <div class="card item">
+                <figure class="img-wrap">
+                    <img class="card-img-top" data-toggle="modal" data-target="#detailModal" src="https://source.unsplash.com/daily" alt="Card image top" />
+                </figure>
+                <div class="card-body">
+                    <span class="label">123RF</span>
+                    <h4 class="card-subtitle">Light streak in sky over city at night</h4>
+                </div>
             </div>
             
-            <div class="card ads text-white border-danger bg-danger p-1 text-center">
+            
+            <div class="card item">
+                <figure class="img-wrap">
+                    <img class="card-img-top" data-toggle="modal" data-target="#detailModal" src="https://source.unsplash.com/daily" alt="Card image top" />
+                </figure>
+                <div class="card-body">
+                    <span class="label">123RF</span>
+                    <h4 class="card-subtitle">Light streak in sky over city at night</h4>
+                </div>
+            </div>
+            
+            <div class="card item">
+                <figure class="img-wrap">
+                    <img class="card-img-top" data-toggle="modal" data-target="#detailModal" src="https://source.unsplash.com/daily" alt="Card image top" />
+                </figure>
+                <div class="card-body">
+                    <span class="label">123RF</span>
+                    <h4 class="card-subtitle">Light streak in sky over city at night</h4>
+                </div>
+            </div>
+            
+             <div class="card ads text-white border-danger bg-danger p-1 text-center">
                 <div class="card-body">
                     <h2 class="card-label"> 123RF</h2>
                     <p class="card-text"> Designers, here’s something for you. </p>
                 </div>
-            </div>  
+            </div>
+            
+            <div class="card item">
+                <figure class="img-wrap">
+                    <img class="card-img-top" data-toggle="modal" data-target="#detailModal" src="https://source.unsplash.com/daily" alt="Card image top" />
+                </figure>
+                <div class="card-body">
+                    <span class="label">123RF</span>
+                    <h4 class="card-subtitle">Light streak in sky over city at night</h4>
+                </div>
+            </div>
+            
+            <div class="card item">
+                <figure class="img-wrap">
+                    <img class="card-img-top" data-toggle="modal" data-target="#detailModal" src="https://source.unsplash.com/daily" alt="Card image top" />
+                </figure>
+                <div class="card-body">
+                    <span class="label">123RF</span>
+                    <h4 class="card-subtitle">Light streak in sky over city at night</h4>
+                </div>
+            </div>
+            
+            <div class="card item">
+                <figure class="img-wrap">
+                    <img class="card-img-top" data-toggle="modal" data-target="#detailModal" src="https://source.unsplash.com/daily" alt="Card image top" />
+                </figure>
+                <div class="card-body">
+                    <span class="label">123RF</span>
+                    <h4 class="card-subtitle">Light streak in sky over city at night</h4>
+                </div>
+            </div>
+            
+             <div class="card ads text-white border-danger bg-danger p-1 text-center">
+                <div class="card-body">
+                    <h2 class="card-label"> 123RF</h2>
+                    <p class="card-text"> Designers, here’s something for you. </p>
+                </div>
+            </div>
+            
+            <div class="card item">
+                <figure class="img-wrap">
+                    <img class="card-img-top" data-toggle="modal" data-target="#detailModal" src="https://source.unsplash.com/daily" alt="Card image top" />
+                </figure>
+                <div class="card-body">
+                    <span class="label">123RF</span>
+                    <h4 class="card-subtitle">Light streak in sky over city at night</h4>
+                </div>
+            </div>
+            
+            <div class="card item">
+                <figure class="img-wrap">
+                    <img class="card-img-top" data-toggle="modal" data-target="#detailModal" src="https://source.unsplash.com/daily" alt="Card image top" />
+                </figure>
+                <div class="card-body">
+                    <span class="label">123RF</span>
+                    <h4 class="card-subtitle">Light streak in sky over city at night</h4>
+                </div>
+            </div>
+            
+            
+            <div class="card item">
+                <figure class="img-wrap">
+                    <img class="card-img-top" data-toggle="modal" data-target="#detailModal" src="https://source.unsplash.com/daily" alt="Card image top" />
+                </figure>
+                <div class="card-body">
+                    <span class="label">123RF</span>
+                    <h4 class="card-subtitle">Light streak in sky over city at night</h4>
+                </div>
+            </div>
         </div>
     </div>
 
