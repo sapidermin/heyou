@@ -67,132 +67,14 @@
             <div class="result">1202 Results</div>
         </section>
         <div class="card-columns result">
-            <div class="card item">
-                <figure class="img-wrap">
-                    <img class="card-img-top" data-toggle="modal" data-target="#detailModal" src="https://source.unsplash.com/daily" alt="Card image top" />
-                </figure>
-                <div class="card-body">
-                    <span class="label">123RF</span>
-                    <h4 class="card-subtitle">Light streak in sky over city at night</h4>
-                </div>
-            </div>            
-            
-            <div class="card item">
-                <figure class="img-wrap">
-                    <img class="card-img-top" data-toggle="modal" data-target="#detailModal" src="https://source.unsplash.com/daily" alt="Card image top" />
-                </figure>
-                <div class="card-body">
-                    <span class="label">123RF</span>
-                    <h4 class="card-subtitle">Light streak in sky over city at night</h4>
-                </div>
-            </div>
-            
-            
-            <div class="card item">
-                <figure class="img-wrap">
-                    <img class="card-img-top" data-toggle="modal" data-target="#detailModal" src="https://source.unsplash.com/daily" alt="Card image top" />
-                </figure>
-                <div class="card-body">
-                    <span class="label">123RF</span>
-                    <h4 class="card-subtitle">Light streak in sky over city at night</h4>
-                </div>
-            </div>
-            
-            <div class="card item">
-                <figure class="img-wrap">
-                    <img class="card-img-top" data-toggle="modal" data-target="#detailModal" src="https://source.unsplash.com/daily" alt="Card image top" />
-                </figure>
-                <div class="card-body">
-                    <span class="label">123RF</span>
-                    <h4 class="card-subtitle">Light streak in sky over city at night</h4>
-                </div>
-            </div>
-            
-             <div class="card ads text-white border-danger bg-danger p-1 text-center">
-                <div class="card-body">
-                    <h2 class="card-label"> 123RF</h2>
-                    <p class="card-text"> Designers, here’s something for you. </p>
-                </div>
-            </div>
-            
-            <div class="card item">
-                <figure class="img-wrap">
-                    <img class="card-img-top" data-toggle="modal" data-target="#detailModal" src="https://source.unsplash.com/daily" alt="Card image top" />
-                </figure>
-                <div class="card-body">
-                    <span class="label">123RF</span>
-                    <h4 class="card-subtitle">Light streak in sky over city at night</h4>
-                </div>
-            </div>
-            
-            <div class="card item">
-                <figure class="img-wrap">
-                    <img class="card-img-top" data-toggle="modal" data-target="#detailModal" src="https://source.unsplash.com/daily" alt="Card image top" />
-                </figure>
-                <div class="card-body">
-                    <span class="label">123RF</span>
-                    <h4 class="card-subtitle">Light streak in sky over city at night</h4>
-                </div>
-            </div>
-            
-            <div class="card item">
-                <figure class="img-wrap">
-                    <img class="card-img-top" data-toggle="modal" data-target="#detailModal" src="https://source.unsplash.com/daily" alt="Card image top" />
-                </figure>
-                <div class="card-body">
-                    <span class="label">123RF</span>
-                    <h4 class="card-subtitle">Light streak in sky over city at night</h4>
-                </div>
-            </div>
-            
-             <div class="card ads text-white border-danger bg-danger p-1 text-center">
-                <div class="card-body">
-                    <h2 class="card-label"> 123RF</h2>
-                    <p class="card-text"> Designers, here’s something for you. </p>
-                </div>
-            </div>
-            
-            <div class="card item">
-                <figure class="img-wrap">
-                    <img class="card-img-top" data-toggle="modal" data-target="#detailModal" src="https://source.unsplash.com/daily" alt="Card image top" />
-                </figure>
-                <div class="card-body">
-                    <span class="label">123RF</span>
-                    <h4 class="card-subtitle">Light streak in sky over city at night</h4>
-                </div>
-            </div>
-            
-            <div class="card item">
-                <figure class="img-wrap">
-                    <img class="card-img-top" data-toggle="modal" data-target="#detailModal" src="https://source.unsplash.com/daily" alt="Card image top" />
-                </figure>
-                <div class="card-body">
-                    <span class="label">123RF</span>
-                    <h4 class="card-subtitle">Light streak in sky over city at night</h4>
-                </div>
-            </div>
-            
-            
-            <div class="card item">
-                <figure class="img-wrap">
-                    <img class="card-img-top" data-toggle="modal" data-target="#detailModal" src="https://source.unsplash.com/daily" alt="Card image top" />
-                </figure>
-                <div class="card-body">
-                    <span class="label">123RF</span>
-                    <h4 class="card-subtitle">Light streak in sky over city at night</h4>
-                </div>
-            </div>
         </div>
     </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script type="text/javascript">
         $(document).on("click", ".card.item", function () {
              var imgSrc = $(this).find('.card-img-top').attr('src');
@@ -200,8 +82,12 @@
              // As pointed out in comments, 
              // it is superfluous to have to manually call the modal.
              // $('#addBookDialog').modal('show');
+
         });
+
+
     </script>
+    <script src="./assets/load_data.js"></script>
 </body>
 
 </html>
