@@ -63,13 +63,13 @@
                 <input type="checkbox" id="123rf" checked /><label for="123rf">123RF</label>
             </span>
             <span class="products">
-                <input type="checkbox" id="thj" checked /><label for="thj">The Hungry JPEG</label>
+                <input type="checkbox" id="The" checked /><label for="The">The Hungry JPEG</label>
             </span>
             <span class="products">
-                <input type="checkbox" id="sui" checked /><label for="sui">Stock Unlimited</label>
+                <input type="checkbox" id="Stock" checked /><label for="Stock">Stock Unlimited</label>
             </span>
             <span class="products">
-                <input type="checkbox" id="cb" checked /><label for="cb">Craft Bundles</label>
+                <input type="checkbox" id="Designnet" checked /><label for="Designnet">Designs.net</label>
             </span>
             <div class="result">1202 Results</div>
         </section>
@@ -97,9 +97,16 @@
              // As pointed out in comments, 
              // it is superfluous to have to manually call the modal.
              // $('#addBookDialog').modal('show');
-
         });
-
+        
+        $('.filter .products input').click(function(){
+            var id = this.id;
+            if($(this).is(":checked")){
+                $('.card.item[data-eco='+id+']').show();
+            } else {
+                 $('.card.item[data-eco='+id+']').hide();
+            }
+        })
 
     </script>
     <script src="./assets/load_data.js"></script>
