@@ -42,6 +42,9 @@ body{
     display: inline-block;
     margin: 0 20px;
 }
+.search-bar.head submit{
+    top: 15px;
+}
 .search-bar .label-search{
     position: relative;
     width: 400px;
@@ -67,7 +70,7 @@ body{
     padding-left: 20px;
     border-right: 0;
 }
-.search-bar button{
+.search-bar submit{
     position: absolute;
     top: 2px;
     right: 6px;

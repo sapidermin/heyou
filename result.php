@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4">
-                    <button type="button" class="btn btn-primary">Download</button>
+                    <a href="#" target="_blank" class="btn btn-primary">Download</a>
                 </div>
             </div>
           </div>
@@ -48,7 +48,7 @@
             <img src="./assets/img/logo.png" alt="img" />
             <div class="label-search">
                 <input type="text" placeholder="Search" />
-                <button><i class="fa fa-search"></i></button>
+                <submit><i class="fa fa-search"></i></submit>
             </div>
             <select>
                 <option>All Format</option>
@@ -83,8 +83,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script type="text/javascript">
         $(document).on("click", ".card.item", function () {
-             var imgSrc = $(this).find('.card-img-top').attr('src');
+             var imgSrc = $(this).find('.card-img-top').attr('src'),
+                 txt =  $(this).find('.card-subtitle').text(),
+                 label = $(this).find('.label').text(),
+                 url = $(this).data('url');
+            
              $(".modal-body #detail_img").attr('src', imgSrc );
+             $(".modal-body .label").text(label);
+             $(".modal-body .card-subtitle").text(txt);
+             $(".modal-body a.btn").attr("href", url);
              // As pointed out in comments, 
              // it is superfluous to have to manually call the modal.
              // $('#addBookDialog').modal('show');

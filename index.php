@@ -24,8 +24,10 @@
             <div class="search-bar">
                 <img src="./assets/img/logo.png" alt="img" />
                 <div class="label-search">
-                    <input type="text" placeholder="Search" />
-                    <button><i class="fa fa-search"></i></button>
+                    <form action="./result.php">
+                        <input type="text" placeholder="Search" />
+                        <submit><i class="fa fa-search"></i></submit>
+                    </form>    
                 </div>
             </div> 
             <footer class="footer">
