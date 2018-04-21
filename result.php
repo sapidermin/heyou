@@ -45,7 +45,7 @@
     </div>
     <div class="container">
         <div class="search-bar head">
-            <img src="./assets/img/logo.png" alt="img" />
+            <img src="./assets/img/logo2.png" alt="img" />
             <div class="label-search">
                 <input type="text" placeholder="Search" />
                 <submit><i class="fa fa-search"></i></submit>
@@ -55,6 +55,7 @@
                 <option>PSD</option>
                 <option>AI</option>
                 <option>JPEG</option>
+                <option>Fonts</option>
             </select>
         </div>
         <section class="filter clearfix">
@@ -91,6 +92,7 @@
              $(".modal-body #detail_img").attr('src', imgSrc );
              $(".modal-body .label").text(label);
              $(".modal-body .card-subtitle").text(txt);
+             $(".modal-body a.btn").attr("href", url);
              $(".modal-body a.btn").attr("href", url);
              // As pointed out in comments, 
              // it is superfluous to have to manually call the modal.
