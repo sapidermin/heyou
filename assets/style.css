@@ -97,9 +97,9 @@ body{
 
 .result .card{
     border: none;
-    margin-bottom: 20px;
     text-align: left;
     cursor: pointer;
+    margin-bottom: 50px;
 }
 .result .card.ads .card-body{
     padding: 20px;
@@ -111,16 +111,18 @@ body{
 .result .card img{
     width: 100%;
 }
-.result h4.card-subtitle{
+.result h4.card-subtitle,
+.detail-popup h4.card-subtitle{
     font-size: 14px;
     text-align: left;
-    margin-top: 15px;
+    margin-top: 8px;
 }
 .result .card-body{
     padding: 0;
     text-align: left;
 }
-.result .label{
+.result .label, 
+.detail-popup .label{
     border-radius: 6px;
     color: #fff;
     background: #bababa;
@@ -157,4 +159,36 @@ body{
 }
 .filter .result{
     float: right;
+}
+
+.detail-popup{}
+.detail-popup .close{
+    position: absolute;
+    right: -30px;
+    top: -20px;
+    color: #fff;
+    opacity: 1;
+    font-weight: 100;
+    font-size: 32px;
+}
+.detail-popup figure{
+    overflow: hidden;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.detail-popup figure img{
+    width: 100%;
+}
+.detail-popup .card-body{
+    padding: 10px;
+}
+
+.btn-primary{
+    background: #e6d232 !important;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #575757 !important;
+    border: none
 }
