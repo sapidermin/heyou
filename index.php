@@ -5,6 +5,19 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
         <link rel="stylesheet" href="./assets/style.css" />
+        <title>Heyou - Find milions of inspiration and download in one time</title>
+        <link rel="icon" 
+          type="image/png" 
+          href="assets/fav.png">
+        <style>
+            .search-bar .label-search:after{
+                display: none;
+            }
+            .search-bar .label-search input[type="text"]{
+                border-right: 2px solid #8e8e8e;
+                border-radius: 4px;
+            }
+        </style>
     </head>
     <body>
         <section class="container">
@@ -17,7 +30,7 @@
             </div> 
             <footer class="footer">
                 <div class="group">
-                    <img src="assets/img/img_group.png" alt="inmagine group" />
+                    <img src="assets/img/img_group.png" style="width: 580px" alt="inmagine group" />
                 </div>
                 copyright &copy; heyou 2018
             </footer>

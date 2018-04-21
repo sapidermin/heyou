@@ -12,8 +12,10 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/style.css" />
-
-    <title>Bootstrap 4 Masonry (Pinterest Style) Layout Example</title>
+    <link rel="icon" 
+      type="image/png" 
+      href="assets/fav.png">
+    <title>Heyou - Find milions of inspiration and download in one time</title>
 </head>
 
 <body>
@@ -21,18 +23,22 @@
     <div class="modal fade" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <img src="" id="detail_img" width="100%" />
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Go to website</button>
+          <div class="modal-body detail-popup">
+            <span aria-hidden="true" class="close">&times;</span>
+            <figure class="img-wrap">
+                <img src="" id="detail_img" width="100%" />
+            </figure>
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="card-body">
+                        <span class="label">123RF</span>
+                        <h4 class="card-subtitle">Light streak in sky over city at night</h4>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <button type="button" class="btn btn-primary">Download</button>
+                </div>
+            </div>
           </div>
         </div>
       </div>
